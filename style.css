@@ -1,0 +1,173 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fffaf0;
+  color: #333;
+}
+
+.hero {
+  background-image: url('first.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.logo {
+  display: flex;
+  justify-content: center; /* centers horizontally */
+  align-items: center;     /* centers vertically */
+  height: 200px;           /* adjust as needed */
+}
+
+.logo img {
+  width: 150px;            /* adjust width */
+  height: auto;            /* maintain aspect ratio */
+  max-height: 100%;        /* ensures it fits within the container */
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 2rem;
+  background: #f1f1f1;
+}
+
+.feature {
+  flex: 1 1 200px;
+  text-align: center;
+  margin: 1rem;
+  background: white;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.categories {
+  padding: 2rem;
+  background-color: #fff;
+}
+
+.categories h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.category-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.category {
+  margin: 1rem;
+  text-align: center;
+}
+
+.category img {
+  width: 200px;
+  height: 150px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.deal {
+  background: #ffefc1;
+  padding: 2rem;
+  text-align: center;
+}
+
+.discount {
+  font-size: 1.5rem;
+  color: red;
+}
+
+.products {
+  padding: 2rem;
+  background: #f7f7f7;
+}
+
+.product-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.product {
+  margin: 1rem;
+  background: white;
+  padding: 1rem;
+  border-radius: 10px;
+  text-align: center;
+  width: 200px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.product img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.testimonials {
+  padding: 2rem;
+  background-color: #e3f2fd;
+  text-align: center;
+}
+
+.testimonial {
+  margin: 1rem auto;
+  max-width: 600px;
+  background: white;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.newsletter {
+  background: #dcedc8;
+  padding: 2rem;
+  text-align: center;
+}
+
+.newsletter input {
+  padding: 0.5rem;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.newsletter button {
+  padding: 0.6rem 1.2rem;
+  background: #388e3c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-left: 1rem;
+}
+
+footer {
+  background: #2e7d32;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+#new{
+  background-color: rgb(255, 255, 255);
+}
+
+#img1{
+  height: 40rem;
+  width: 18rem;
+}
+#new1{
+  background-color: #f6d361;
+}
